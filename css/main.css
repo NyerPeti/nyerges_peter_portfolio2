@@ -1,0 +1,142 @@
+body{
+	font-size: 2rem;
+	color:white;
+	font-weight: 400;
+	background-color: gray;
+	margin:0;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.doboz{
+
+	background-color: slategray;
+    display: block;
+    padding: 10px ;
+    margin: 0;
+}
+
+.nav{ 			
+    
+    justify-content: space-around;
+
+
+}
+
+.gomb{
+	
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+    transition: 1s;
+    min-width: max-content;
+    letter-spacing: 5px;
+    text-align: right;
+    flex-grow: 1;
+   	justify-content: space-around;
+    
+
+
+}
+a{
+	text-decoration: 	none;	
+}
+.gomb:hover{
+	cursor: pointer;
+	background-color: cornflowerblue;
+}
+.szoveg{
+	
+	background-color: 	slategrey;
+	display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem, 1.5fr));
+    margin:  8rem;
+    border-radius: 2rem;
+    box-sizing:border-box;
+
+}
+.kartya{
+	padding: 	2rem;
+	margin-left: 	10px;
+	text-align: center;
+	font-size: 2rem;
+
+}
+.tabla{
+	background-color: slategray;
+	text-align: center ;
+	display: grid;
+	padding: 3rem;
+	margin: 5rem;
+	grid-template-columns: repeat(auto-fit,minmax(15rem, 1fr));
+	border-radius: 10px;
+	grid-gap: 5rem;
+}	
+.galery{
+	color: lightgray;
+	background-color: gray;
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+	
+}
+.kep{
+
+	display: inline-block;
+    max-height: 11.2rem;
+    max-width: max-content;
+    min-width: min-content;
+    background-color: slategray;
+    border: 10px solid lightgray;
+    border-radius: 10px;
+    margin: 10px;
+
+ 	
+}
+
+
+
+.kep:hover{
+	box-shadow: 0 0 20px purple;
+}
+footer{
+	background-color: slategray;
+	text-align-last: center;
+}
+.kapcsolat{
+	border-radius: 10px;
+	text-align: right;
+	 margin:10rem;
+	color: black;
+	background-color: white;
+	    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 15rem));
+    
+      
+}
+.social{
+	padding: 10px;
+}
+
+p{
+	text-align: left;
+}
+.doku{
+	display: grid;
+	background-color: 	slategrey;
+	 margin:  5rem;
+	 padding: 4rem;
+    border-radius: 2rem;
+    box-sizing:border-box;
+}
+.dokukep{
+	text-align: center;
+	box-sizing: border-box;
+}
